@@ -20,8 +20,7 @@ body{
     background-repeat: no-repeat;
     background-position: calc(100% + 480px) -400px, calc(100% + -1312px) 88px, calc(100% + -1258px) 50px, calc(100% + -346px) 540px, calc(100% + -436px) 495px;
     overflow: hidden;
-    background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star-top.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%202.svg), 
-    url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%203.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%204.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%205.svg);
+    background-image: url(img/Star-top.svg), url(img/Star5.svg), url(img/Star3.svg), url(img/Star4.svg), url(img/Star5.svg);
 
     &__title{
     font-size: 64px;
@@ -53,14 +52,17 @@ body{
         margin-bottom: 156px;
         margin-top: 48px;
         font-family: "Montserrat";
+        text-decoration: none;
     }
 }
-.header__button:hover{
+   
+.header__button{
+    transition: all 0.5s; 
+    
+    &:hover{
     background: rgb(255, 255, 255);
     color: black;
-}
-.header__button{
-    transition: all 0.5s;
+    }
 }
     .title{
         margin: 0;
@@ -91,7 +93,7 @@ body{
         height: 100%;
         background-repeat: no-repeat;
         background-position: calc(100% + 91px) 94px, calc(100% + -1355px) 730px, calc(100% + -1322px) 794px;
-        background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%201.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%2011.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%2012.svg);
+        background-image: url(img/Star1.svg), url(img/Star11.svg), url(img/Star12.svg);
         overflow: hidden;
     }
     .img{
@@ -118,24 +120,25 @@ body{
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-        }
-        &__item_1{
-            background: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/card1.svg);
-        }
-        &__item_2{
-            background: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/card2.svg);
-        }
-        &__item_3{
-            background: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/card3.svg);
-        }
-        &__item_4{
-            background: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/card4.svg);
-        }
-        &__item_5{
-            background: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/card5.svg);
-        }
-        &__item_6{
-            background: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/card6.svg);
+
+            &_1{
+                background: url(img/card1.svg);
+            }
+            &_2{
+                background: url(img/card2.svg);
+            }
+            &_3{
+                background: url(img/card3.svg);
+            }
+            &_4{
+                background: url(img/card4.svg);
+            }
+            &_5{
+                background: url(img/card5.svg);
+            }
+            &_6{
+                background: url(img/card6.svg);
+            }
         }
         &__number{
             width: 111px;
@@ -164,16 +167,18 @@ body{
     }
     .img__card{
         transition: all 1s;
-    }
-    .img__card:hover{
+    
+        &:hover{
         transform: scale(1.10);
+        }
     }
+    
     .gallery__conteiner{
         background: rgb(32, 32, 39); 
         height: 100%;
         background-repeat: no-repeat;
         background-position: calc(100% - 49px) 111px, calc(100% + -125px) 85px, calc(100% + -47px) 3372px, calc(100% + -139px) 3426px;
-        background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%206.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%207.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%208.svg), url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/Star%2010.svg);
+        background-image: url(img/Star6.svg), url(img/Star7.svg), url(img/Star8.svg), url(img/Star10.svg);
         overflow: hidden;
         padding-bottom: 144px;
     }
@@ -200,22 +205,22 @@ body{
            }
         }
         &__item_1{
-            background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/img1.svg);  
+            background-image: url(img/img1.svg);  
         }
         &__item_2{
-            background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/img2.svg);
+            background-image: url(img/img2.svg);
         }
         &__item_3{
-            background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/img3.svg);
+            background-image: url(img/img3.svg);
         }
         &__item_4{
-            background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/img4.svg);
+            background-image: url(img/img4.svg);
         }
         &__item_5{
-            background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/img5.svg);
+            background-image: url(img/img5.svg);
         }
         &__item_6{
-            background-image: url(file:///C:/Users/penyu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Proect/Homework1/img/img6.svg);
+            background-image: url(img/img6.svg);
         }
         &__title{
             color: rgb(32, 32, 39);
@@ -264,8 +269,3 @@ body{
         text-align: center;
         padding-top: 61px;
     }
-
-
-
-
-    
