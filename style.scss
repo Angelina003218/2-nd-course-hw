@@ -103,6 +103,7 @@ body{
         grid-template-rows: repeat(3, 1fr);
         gap: 32px;
         align-items: start;
+
         &__card{
             display: flex;
                 flex-direction: column;
@@ -130,7 +131,7 @@ body{
                 background: url(img/card3.svg);
             }
             &_4{
-                background: url(img/card4.svg);
+                background: url(img/card4.jpeg);
             }
             &_5{
                 background: url(img/card5.svg);
@@ -216,7 +217,7 @@ body{
             background-image: url(img/img4.svg);
         }
         &__item_5{
-            background-image: url(img/img5.svg);
+            background-image: url(img/img5.jpeg);
         }
         &__item_6{
             background-image: url(img/img6.svg);
