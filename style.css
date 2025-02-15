@@ -127,22 +127,22 @@ body {
   background-position: center;
 }
 .img__item_1 {
-  background: url(img/card1.svg);
+  background-image: url(img/card1.svg);
 }
 .img__item_2 {
-  background: url(img/card2.svg);
+  background-image: url(img/card2.svg);
 }
 .img__item_3 {
-  background: url(img/card3.svg);
+  background-image: url(img/card3.svg);
 }
 .img__item_4 {
-  background: url(img/card4.jpeg);
+  background-image: url(img/card4.jpeg);
 }
 .img__item_5 {
-  background: url(img/card5.svg);
+  background-image: url(img/card5.svg);
 }
 .img__item_6 {
-  background: url(img/card6.svg);
+  background-image: url(img/card6.svg);
 }
 .img__number {
   width: 111px;
@@ -231,6 +231,7 @@ body {
   font-weight: 700;
   line-height: 59px;
   padding-bottom: 24px;
+  width: 505px;
 }
 .gallery__text {
   color: rgb(32, 32, 39);
@@ -291,6 +292,7 @@ body {
     background-image: url(img/star2mob.svg), url(img/star3mob.svg), url(img/star4mob.svg), url(img/star5mob.svg), url(img/Vectormob.svg);
   }
   .header__title {
+    width: 296px;
     font-size: 40px;
     line-height: 49px;
     padding-top: 147px;
