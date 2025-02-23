@@ -121,22 +121,22 @@ body{
             background-position: center;
 
             &_1{
-                background: url(img/card1.svg);
+                background-image: url(img/card1.svg);
             }
             &_2{
-                background: url(img/card2.svg);
+                background-image: url(img/card2.svg);
             }
             &_3{
-                background: url(img/card3.svg);
+                background-image: url(img/card3.svg);
             }
             &_4{
-                background: url(img/card4.jpeg);
+                background-image: url(img/card4.jpeg);
             }
             &_5{
-                background: url(img/card5.svg);
+                background-image: url(img/card5.svg);
             }
             &_6{
-                background: url(img/card6.svg);
+                background-image: url(img/card6.svg);
             }
         }
         &__number{
@@ -189,9 +189,7 @@ body{
           border-radius: 30px;
           color: rgb(32, 32, 39);
           background-repeat: no-repeat;
-          height: 500px;
           width: 100%;
-          padding: 48px;
           background-color: #FFFFFF;
           display: flex;
           flex-direction: column;
@@ -227,6 +225,7 @@ body{
             font-weight: 700;
             line-height: 59px;
             padding-bottom: 24px;
+            width: 505px;
         }
         &__text{
             color: rgb(32, 32, 39);
