@@ -41,6 +41,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
+  width: 720px;
 }
 .header__text-bold {
   font-weight: 600;
@@ -303,6 +304,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    width: 296px;
   }
   .header__text-bold {
     font-weight: 600;
@@ -339,10 +341,9 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
-    height: 567px;
+    height: auto;
     background: none;
     background-repeat: no-repeat;
-    height: 567px;
     background-color: white;
     width: 343px;
   }
