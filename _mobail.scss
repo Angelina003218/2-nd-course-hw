@@ -16,6 +16,7 @@ center {
     background-position: 37px 97px, 91px 64px, 303px 580px, 272px 557px, 220px -90px;
     background-image: url(img/star2mob.svg), url(img/star3mob.svg), url(img/star4mob.svg), url(img/star5mob.svg), url(img/Vectormob.svg);
     &__title{
+    width: 296px;
     font-size: 40px;
     line-height: 49px;
     padding-top: 147px;
@@ -26,6 +27,7 @@ center {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    width: 296px;
         &-bold{
             font-weight: 600;
         }
@@ -68,12 +70,11 @@ center {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
-    height: 567px;            
+    height: auto;            
     background: none;
     background-repeat: no-repeat;
-        height: 567px;
-        background-color: white;
-        width: 343px;
+     background-color: white;
+    width: 343px;
     &_1 {
         background-image: url(img/mob_img1.jpeg);
     }
