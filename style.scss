@@ -36,7 +36,6 @@ body{
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    width: 720px;
         &-bold{
             font-weight: 600;
         }
@@ -122,22 +121,22 @@ body{
             background-position: center;
 
             &_1{
-                background-image: url(img/card1.svg);
+                background: url(img/card1.svg);
             }
             &_2{
-                background-image: url(img/card2.svg);
+                background: url(img/card2.svg);
             }
             &_3{
-                background-image: url(img/card3.svg);
+                background: url(img/card3.svg);
             }
             &_4{
-                background-image: url(img/card4.jpeg);
+                background: url(img/card4.png);
             }
             &_5{
-                background-image: url(img/card5.svg);
+                background: url(img/card5.svg);
             }
             &_6{
-                background-image: url(img/card6.svg);
+                background: url(img/card6.svg);
             }
         }
         &__number{
@@ -201,7 +200,7 @@ body{
            }
            &_left{
             background-position-x: left;
-            align-items: flex-end;
+            padding-left: 645px;
            }
         }
         &__item_1{
@@ -214,10 +213,10 @@ body{
             background-image: url(img/img3.svg);
         }
         &__item_4{
-            background-image: url(img/img4.svg);
+            background-image: url(img/img4.png);
         }
         &__item_5{
-            background-image: url(img/img5.jpeg);
+            background-image: url(img/img5.svg);
         }
         &__item_6{
             background-image: url(img/img6.svg);
@@ -228,7 +227,6 @@ body{
             font-weight: 700;
             line-height: 59px;
             padding-bottom: 24px;
-            width: 505px;
         }
         &__text{
             color: rgb(32, 32, 39);
