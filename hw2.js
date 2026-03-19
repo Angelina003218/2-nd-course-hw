@@ -24,7 +24,7 @@ alert(a1 / b1); // Частное
 //Задание5
 let result = 2 ** 5;
 alert(result); // Результат будет равен 32.
- 
+
 //Задание6
 let a2 = 9;
 let b2 = 2;
@@ -39,11 +39,11 @@ num /= 3; // эквивалентно num = num / 3
 ++num; // эквивалентно num = num + 1
 --num; // эквивалентно num = num - 1
 alert(num);
- 
+
 //Задание8
 let age = prompt("Сколько вам лет?");
 alert(age);
- 
+
 //Задание9
 let user = {
 name: 'Ангелина',

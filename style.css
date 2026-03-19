@@ -41,6 +41,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
+  width: 720px;
 }
 .header__text-bold {
   font-weight: 600;
@@ -136,7 +137,7 @@ body {
   background-image: url(img/card3.svg);
 }
 .img__item_4 {
-  background-image: url(img/card4.jpeg);
+  background: url(img/card4.png);
 }
 .img__item_5 {
   background-image: url(img/card5.svg);
@@ -203,7 +204,7 @@ body {
 }
 .gallery__item_left {
   background-position-x: left;
-  align-items: flex-end;
+  padding-left: 645px;
 }
 .gallery__item_1 {
   background-image: url(img/img1.svg);
@@ -215,10 +216,10 @@ body {
   background-image: url(img/img3.svg);
 }
 .gallery__item_4 {
-  background-image: url(img/img4.svg);
+  background-image: url(img/img4.png);
 }
 .gallery__item_5 {
-  background-image: url(img/img5.jpeg);
+  background-image: url(img/img5.svg);
 }
 .gallery__item_6 {
   background-image: url(img/img6.svg);
@@ -301,6 +302,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    width: 296px;
   }
   .header__text-bold {
     font-weight: 600;
@@ -341,29 +343,36 @@ body {
     background-repeat: no-repeat;
     background-color: white;
     width: 343px;
-    padding-top: 314px;
+    padding: 0;
   }
   .gallery__item_1 {
-    background-image: url(img/mob_img1.jpeg);
+    background-image: url(img/mob_img1.svg);
+    height: 528.63px;
   }
   .gallery__item_2 {
-    background-image: url(img/mob_img2.jpeg);
+    background-image: url(img/mob_img2.svg);
+    height: 567.63px;
   }
   .gallery__item_3 {
-    background-image: url(img/mob_img3.jpeg);
+    background-image: url(img/mob_img3.svg);
+    height: 567.63px;
   }
   .gallery__item_4 {
-    background-image: url(img/mob_img5.jpeg);
+    background-image: url(img/mob_img4.png);
+    height: 606.63px;
   }
   .gallery__item_5 {
-    background-image: url(img/mob_img4.jpeg);
+    background-image: url(img/mob_img5.svg);
+    height: 567.63px;
   }
   .gallery__item_6 {
-    background-image: url(img/mob_img6.jpeg);
+    background-image: url(img/mob_img6.svg);
+    height: 626.63px;
   }
   .gallery__title {
     font-size: 32px;
     line-height: 39px;
+    margin-top: 314px;
     padding-bottom: 16px;
     width: 285px;
   }
