@@ -4,7 +4,14 @@ center {
     padding-left: 16px;
     padding-right: 16px;
 }
-
+.top {
+    &__scroll_bar {
+    height: 51.3px;
+    }
+    &__scroll_bar_text {
+    font-size: 18px;
+    }    
+}
 .img__conteiner {
     display: none;
 }
@@ -78,23 +85,23 @@ center {
         height: 528.63px;
     }
     &_2 {
-        background-image:url(img/mob_img2.svg);
+        background-image:url(img/mob_img2.jpeg);
         height: 567.63px;
     }
     &_3 {
-        background-image: url(img/mob_img3.svg);
+        background-image: url(img/mob_img3.jpeg);
         height: 567.63px;
     }
     &_4 {
-        background-image: url(img/mob_img4.png);
+        background-image: url(img/mob_img4.jpeg);
         height: 606.63px;
     }
     &_5 {
-        background-image: url(img/mob_img5.svg);
+        background-image: url(img/mob_img5.jpeg);
         height: 567.63px;
     }
     &_6 {
-        background-image: url(img/mob_img6.svg);
+        background-image: url(img/mob_img6.jpeg);
         height: 626.63px;
     }
     }
@@ -118,5 +125,9 @@ center {
     margin-right: 0px;
     }
 }
-
+.footer{
+    height: 100px;
+    font-size: 16px;
+    padding-top: 40px;
+}
 }
