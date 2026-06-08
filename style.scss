@@ -14,6 +14,30 @@ body{
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
+.top {
+&__scroll_bar {
+    padding: 0px;
+    gap: 10px;
+    border: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background: rgb(188, 236, 48);
+    display: flex;
+    align-items: center;
+    height: 90px;
+    overflow: hidden;
+}
+    &__scroll_bar_text {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase;
+        padding-right: 51px;
+        padding-left: 51px;
+        white-space: nowrap;
+    }    
+}
 .hed {
     width: 768px;
 }
@@ -130,7 +154,7 @@ body{
                 background-image: url(img/card3.svg);
             }
             &_4{
-                background: url(img/card4.png);
+                background: url(img/card4.jpeg);
             }
             &_5{
                 background-image: url(img/card5.svg);
@@ -211,7 +235,7 @@ body{
             background-image: url(img/img3.svg);
         }
         &__item_4{
-            background-image: url(img/img4.png);
+            background-image: url(img/img4.jpeg);
         }
         &__item_5{
             background-image: url(img/img5.svg);
